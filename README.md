@@ -12,21 +12,8 @@ This includes:
 
 ## Prerequisites
 
-1. Install [Docker](https://docs.docker.com/get-docker/)
-2. Docker [Post-Installation](https://docs.docker.com/engine/install/linux-postinstall/) Steps
-    * Create the docker group.
-
-    ```
-    sudo groupadd docker
-    ```
-
-    * Add your user to the docker group.
-
-    ```
-    sudo usermod -aG docker $USER
-    ```
-
-3. [Enable](https://docs.docker.com/develop/develop-images/build_enhancements/#to-enable-buildkit-builds) Docker Buildkit builds
+1. Git 2.25+ (for sparse checkout support)
+2. [Docker](https://docs.docker.com/get-docker/)
 
 ## Usage
 
